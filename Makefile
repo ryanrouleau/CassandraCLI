@@ -1,5 +1,4 @@
 all:
-	gcc -o project2 lex.c main.c -lcassandra
-
+	g++ -Wall -std=c++11 -o cli cmds.cpp cli.cpp -lcassandra
 clean:
-	rm -f project2
+	rm -f 
